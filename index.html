@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REKT Token</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="loader-wrapper w-100 h-100 bg-black position-fixed z-3">
+        <div class="w-100 h-100 loader d-flex align-items-center justify-content-center">
+            <div class="stack" style="--stacks: 3;">
+                <span style="--index: 0;">REKT</span>
+                <span style="--index: 1;">REKT</span>
+                <span style="--index: 2;">REKT</span>
+            </div>
+        </div>
+    </div>
+    <header class="position-absolute w-100 top-0 left-0 py-3">
+        <div class="topbar">
+            <div class="container">
+                <div class="row gap-3">
+                    <div class="col-md d-flex gap-3 align-items-center justify-content-center justify-content-sm-start">
+                        <li>Follow Us On</li>
+                        <ul class="d-flex gap-3 align-items-center text-uppercase fs-12">
+                            <li class="border d-flex rounded-circle align-items-center justify-content-center"
+                                style="width: 28px; height: 28px;"><a href="#"><i
+                                        class="fa-brands fa-facebook-f"></i></a>
+                            </li>
+                            <li class="border d-flex rounded-circle align-items-center justify-content-center"
+                                style="width: 28px; height: 28px;"><a href="#"><i
+                                        class="fa-brands fa-instagram"></i></a>
+                            </li>
+                            <li class="border d-flex rounded-circle align-items-center justify-content-center"
+                                style="width: 28px; height: 28px;"><a href="#"><i
+                                        class="fa-brands fa-linkedin-in"></i></a>
+                            </li>
+                            <li class="border d-flex rounded-circle align-items-center justify-content-center"
+                                style="width: 28px; height: 28px;"><a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md text-sm-end text-center">
+                        <button class="bg-orange text-black rounded-pill py-2 px-5 border border-2 fs-5">
+                            Connect Wallet
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="my-3"
+            style="background: linear-gradient(90deg, rgba(197,201,204,0) 0%, rgba(197,201,204,1) 50%, rgba(197,201,204,0) 100%); height: 2px;">
+        </div>
+        <div class="main-header">
+            <nav class="navbar navbar-expand-lg position-static p-0">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="assets/images/logo.png" width="174" alt="Logo">
+                    </a>
+                    <div class="d-flex gap-5">
+                        <ul class="d-none d-xl-flex gap-5 align-items-center text-uppercase fs-4">
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#utility">Utility</a></li>
+                            <li><a href="#aboutUs">ABOUT US</a></li>
+                            <li><a href="#ourCommunity">our Community</a></li>
+                            <li><a href="#roadmap">roadmap</a></li>
+                        </ul>
+                        <button class="d-xl-none btn bg-red rounded p-2 px-4 border border-white text-white shadow-0"
+                            data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                            <span><i class="fa-solid fa-bars"></i></span>
+                        </button>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header bg-black">
+                <button type="button" class="btn-close opacity-100 text-white fs-2" data-bs-dismiss="offcanvas"
+                    aria-label="Close">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+            <div class="offcanvas-body bg-black text-white">
+                <ul class="d-flex flex-column gap-4 text-uppercase fs-4">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#utility">Utility</a></li>
+                    <li><a href="#aboutUs">ABOUT US</a></li>
+                    <li><a href="#ourCommunity">our Community</a></li>
+                    <li><a href="#roadmap">roadmap</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="home" class="hero bg-props"
+            style="background-image: url(assets/images/hero-bg.png); padding: 285px 0 80px 0;">
+            <div class="container">
+                <div class="row">
+                    <h1 class="text-uppercase display-1 fw-bolder text-center" style="text-shadow: 3px 0 #000, -2px 0 #000, 0 2px #000, 0 -2px #000,
+                    1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;">REKT global degens community <img
+                            src="assets/images/book.png" width="115" alt="Book image"></h1>
+                    <div class="d-flex flex-column flex-sm-row justify-content-center gap-4 my-5">
+                        <button class="bg-orange text-black rounded-pill py-2 px-5 border border-2 fs-5">
+                            Buy Now
+                        </button>
+                        <button class="bg-orange text-black rounded-pill py-2 px-4 border border-2 fs-5">
+                            Claim Airdrop
+                        </button>
+                    </div>
+                    <div class="d-flex flex-column flex-lg-row text-center justify-content-center gap-4 mt-5 text-uppercase">
+                        <div class="position-relative">
+                            <img src="assets/images/frame.png" width="245" alt="Frame">
+                            <div class="position-absolute top-50 start-50 translate-middle w-100 text-center mt-4">
+                                <h5>TOTAL SUPPLY</h5>
+                                <p style="text-shadow: 2px 0 #FFA800, -2px 0 #FFA800, 0 2px #FFA800, 0 -2px #FFA800,
+                                1px 1px #FFA800, -1px -1px #FFA800, 1px -1px #FFA800, -1px 1px #FFA800;"
+                                    class="display-2 text-black fw-bolder">1B</p>
+                            </div>
+                        </div>
+                        <div class="position-relative">
+                            <img src="assets/images/frame.png" width="245" alt="Frame">
+                            <div class="position-absolute top-50 start-50 translate-middle w-100 text-center mt-4">
+                                <h5>buy tax</h5>
+                                <p style="text-shadow: 2px 0 #FFA800, -2px 0 #FFA800, 0 2px #FFA800, 0 -2px #FFA800,
+                                1px 1px #FFA800, -1px -1px #FFA800, 1px -1px #FFA800, -1px 1px #FFA800;"
+                                    class="display-2 text-black fw-bolder">0%</p>
+                            </div>
+                        </div>
+                        <div class="position-relative">
+                            <img src="assets/images/frame.png" width="245" alt="Frame">
+                            <div class="position-absolute top-50 start-50 translate-middle w-100 text-center mt-4">
+                                <h5>sell tax</h5>
+                                <p style="text-shadow: 2px 0 #FFA800, -2px 0 #FFA800, 0 2px #FFA800, 0 -2px #FFA800,
+                                1px 1px #FFA800, -1px -1px #FFA800, 1px -1px #FFA800, -1px 1px #FFA800;"
+                                    class="display-2 text-black fw-bolder">0%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="utility" class="py-60 pb-0">
+            <div class="container">
+                <div class="row">
+                    <h2 class="display-3 fw-bolder text-center text-uppercase">Why <span
+                            class="text-orange">$REKT</span> Stands Out?</h2>
+                    <img src="assets/images/utility-img.png" class="img-fluid" alt="utility">
+                </div>
+                <div class="row flex-column flex-lg-row py-5 my-5 gap-5 gap-lg-0">
+                    <div class="col">
+                        <div style="background: linear-gradient(180deg, rgba(255,168,0,1) 0%, rgba(2,0,36,1) 100%); padding: 2px;"
+                            class="rounded-4">
+                            <div style="background: #0E0F14;" class="rounded-4">
+                                <div style="background: linear-gradient(180deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0) 100%); min-height: 460px"
+                                    class="p-4 pt-5 rounded-4 text-center position-relative">
+                                    <h4 class="pt-5">Value-Driven Model</h4>
+                                    <p class="mb-4 px-xxl-5">Wen Marketing? Wen Exchange Listing? Wen Dextool Trending?
+                                        You
+                                        Are The Dev! If
+                                        You
+                                        Want Something To Happen, Then Grab A Bag And Diy. No Exceptions No Secret Team
+                                        Paying Things.</p>
+                                    <button
+                                        class="bg-transparent text-orange rounded-pill py-2 px-5 border border-2 fs-5"
+                                        style="border-color: #FFA800 !important;">
+                                        Read More
+                                    </button>
+                                    <img class="img-fluid position-absolute top-0 start-50 translate-middle border border-2 rounded-circle"
+                                        src="assets/images/fact1.png" alt="Fact Logo"
+                                        style="border-color: #FFA800 !important; box-shadow: 0 0 10px 0px #FFA800;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div style="background: linear-gradient(180deg, rgba(255,168,0,1) 0%, rgba(2,0,36,1) 100%); padding: 2px;"
+                            class="rounded-4">
+                            <div style="background: #0E0F14;" class="rounded-4">
+                                <div style="background: linear-gradient(180deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0) 100%); min-height: 460px"
+                                    class="p-4 pt-5 rounded-4 text-center position-relative">
+                                    <h4 class="pt-5">Tiered Access</h4>
+                                    <p class="mb-4 px-xxl-5">
+                                        The Supply Is The Same As The Original Shiba Inu, The Contract Is The Same. The
+                                        Contract Is A Simple Erc20 That Cannot Be Adjusted Or Changed Or Rugged
+                                    </p>
+                                    <button
+                                        class="bg-transparent text-orange rounded-pill py-2 px-5 border border-2 fs-5"
+                                        style="border-color: #FFA800 !important;">
+                                        Read More
+                                    </button>
+                                    <img class="img-fluid position-absolute top-0 start-50 translate-middle border border-2 rounded-circle"
+                                        src="assets/images/fact2.png" alt="Fact Logo"
+                                        style="border-color: #FFA800 !important; box-shadow: 0 0 10px 0px #FFA800;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div style="background: linear-gradient(180deg, rgba(255,168,0,1) 0%, rgba(2,0,36,1) 100%); padding: 2px;"
+                            class="rounded-4">
+                            <div style="background: #0E0F14;" class="rounded-4">
+                                <div style="background: linear-gradient(180deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0) 100%); min-height: 460px"
+                                    class="p-4 pt-5 rounded-4 text-center position-relative">
+                                    <h4 class="pt-5">Exponential Growth</h4>
+                                    <p class="mb-4 px-xxl-5">
+                                        The Srekt Token Has A Built-in Demand Model. Given That It's The Only Way To
+                                        Access Our Exclusive Trading Community.
+                                    </p>
+                                    <button
+                                        class="bg-transparent text-orange rounded-pill py-2 px-5 border border-2 fs-5"
+                                        style="border-color: #FFA800 !important;">
+                                        Read More
+                                    </button>
+                                    <img class="img-fluid position-absolute top-0 start-50 translate-middle border border-2 rounded-circle"
+                                        src="assets/images/fact3.png" alt="Fact Logo"
+                                        style="border-color: #FFA800 !important; box-shadow: 0 0 10px 0px #FFA800;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="aboutUs" class="py-60 pt-0">
+            <div class="container">
+                <div class="row">
+                    <h2 class="display-3 fw-bolder text-center text-uppercase mb-5">
+                        About US
+                        <span class="text-orange">REKT</span>
+                    </h2>
+                </div>
+                <div class="row flex-column flex-lg-row align-items-center gap-5 justify-content-between">
+                    <div class="col-lg-4 col-xxl-5 px-sm-5 p-lg-0">
+                        <img src="assets/images/about-us-img.png" class="img-fluid" alt="About us section image">
+                    </div>
+                    <div class="col">
+                        <h2 class="display-4 mb-4">Our Project And <br> Ecosystem Rekt </h2>
+                        <p>At Rekt, We Think Investing Should Be Exciting, Not Dull. That's Why We Made A Token For
+                            Those
+                            Who Like Taking Risks. Having Fun, And Maybe Facing Some Challenges Along The
+                            Journey.<br><br>
+                            If You're Done With Being Cautious And Are Up For The Wildest Adventure In The
+                            Cryptocurrency
+                            Realm. Then Rekt Is The Perfect Token For You. With Us. You Can Shake Up Your Investment
+                            Portfolio And Welcome The Unpredictability Of The Market.<br><br>
+                            Become A Part Of The Rekt Community Today And Revamp Your Portfolio With A Touch Of Rekt!
+                            Always
+                            Remember. The Focus Isn't Solely On The End Goal It's The Adventurous Journey Filled With
+                            Twists
+                            And Turns That Truly Counts,</p>
+                        <div class="d-flex flex-column flex-sm-row gap-2 gap-md-4 my-5 fw-semibold">
+                            <button class="bg-orange text-black rounded-pill py-2 px-4 border border-2 fs-5">
+                                REKT Family
+                            </button>
+                            <button class="bg-orange text-black rounded-pill py-2 px-4 border border-2 fs-5">
+                                Claim Airdrop
+                            </button>
+                            <button class="bg-orange text-black rounded-pill py-2 px-4 border border-2 fs-5">
+                                Bonus Reward
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="ourCommunity" class="py-60 pt-0">
+            <div class="container">
+                <div class="row">
+                    <h2 class="display-3 fw-bolder text-center text-uppercase mb-5">our
+                        <span class="text-orange">community</span>
+                    </h2>
+                </div>
+                <div class="row flex-column flex-md-row align-items-center gap-5 justify-content-center">
+                    <div class="col col-xxl-5">
+                        <div class="row flex-column gap-4">
+                            <div class="col">
+                                <div style="background: linear-gradient(0deg, rgba(255,168,0,1) 0%, rgba(2,0,36,1) 100%); padding: 1px;"
+                                    class="rounded-3">
+                                    <div style="background: #0E0F14;" class="rounded-3">
+                                        <div style="background: linear-gradient(0deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0) 100%);"
+                                            class="p-4 rounded-3 position-relative">
+                                            <h3>10k+ subscribers</h3>
+                                            <p class="m-0 pe-5">Jom Alongsida Founders, Investors, Neds Ind 10.000 Ether
+                                                Subscribers Learning About The Wall Space. Get The Latest Insights.
+                                                Tranés
+                                                And Alerts From The Community.</p>
+                                            <span
+                                                class="img-fluid position-absolute top-0 end-0 display-2 pe-4 opacity-25 fw-bolder text-secondary">01</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div style="background: linear-gradient(0deg, rgba(255,168,0,1) 0%, rgba(2,0,36,1) 100%); padding: 1px;"
+                                    class="rounded-3">
+                                    <div style="background: #0E0F14;" class="rounded-3">
+                                        <div style="background: linear-gradient(0deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0) 100%);"
+                                            class="p-4 rounded-3 position-relative">
+                                            <h3>Weekly Hangouts</h3>
+                                            <p class="m-0 pe-5">The Core Of Our Community And Daily
+                                                Hangout Spot For Learners And Invectors
+                                                Jain Project And Deul Discussions. Amal
+                                                And Community Trivi.</p>
+                                            <span
+                                                class="img-fluid position-absolute top-0 end-0 display-2 pe-4 opacity-25 fw-bolder text-secondary">02</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div style="background: linear-gradient(0deg, rgba(255,168,0,1) 0%, rgba(2,0,36,1) 100%); padding: 1px;"
+                                    class="rounded-3">
+                                    <div style="background: #0E0F14;" class="rounded-3">
+                                        <div style="background: linear-gradient(0deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0) 100%);"
+                                            class="p-4 rounded-3 position-relative">
+                                            <h3>10+ Various Events</h3>
+                                            <p class="m-0 pe-5">Virtual Und Irl Events. From Nestings With Founders And
+                                                Vcs
+                                                On Telegram To Private Hangouts At Slegunt Venues Around The World.</p>
+                                            <span
+                                                class="img-fluid position-absolute top-0 end-0 display-2 pe-4 opacity-25 fw-bolder text-secondary">03</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-xxl-5">
+                        <img src="assets/images/community-img.png" class="img-fluid" alt="Community section image">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section style="background-image: url(assets/images/tokenomics-bg.png);" class="bg-props py-60">
+            <div class="container">
+                <div class="row">
+                    <h2 class="display-3 fw-bolder text-center text-uppercase">tokenomics</h2>
+                </div>
+                <div class="row flex-column flex-lg-row align-items-center gap-5 justify-content-center">
+                    <div class="col col-xxl-5">
+                        <div class="row flex-column gap-4">
+                            <div class="col">
+                                <h2 class="mb-4">Total Supply <span class="text-orange">REKT</span> <br> 1,000,000,000
+                                </h2>
+                                <div style="background: linear-gradient(180deg, rgba(255,168,0,1) 0%, rgba(2,0,36,1) 100%); padding: 1px;"
+                                    class="rounded-3">
+                                    <div style="background: #0E0F14;" class="rounded-3">
+                                        <div style="background: linear-gradient(0deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0) 100%);"
+                                            class="p-4 rounded-3 position-relative">
+                                            <h3 class="mb-3">Supply Breakdown</h3>
+                                            <p class="m-0 pe-xxl-5">
+                                                45% Of The Tokens Are Allocated For Pre-sale, 29.01% Initially Burned,
+                                                And 15.39% Was Allocated To The V2 Uniswap Lp, Lp Tokens Were Locked For
+                                                1 Year And Will Be Extended In The Future. The Remaining 10% Of The
+                                                Supply Is Held In A Multi-sig Wallet, Reserved For Future Centralized
+                                                Exchange Listings, Bridges, And To Provide Tokens For The V3 Uniswap Lp.
+                                                This Wallet Can Be Easily Tracked Using The Ens Name "Safereum.eth.
+                                            </p>
+                                            <span
+                                                class="img-fluid position-absolute top-0 end-0 display-2 pe-4 opacity-25 fw-bolder text-secondary">01</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-xxl-5">
+                        <img src="assets/images/tokenomics-img.png" class="img-fluid" alt="Tokenomics section image">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="roadmap" class="py-60">
+            <div class="container">
+                <div class="row">
+                    <h2 class="display-3 fw-bolder text-center text-uppercase mb-5">Roadmap</h2>
+                </div>
+                <div class="row flex-column gap-5 flex-lg-row gap-lg-0">
+                    <div class="col">
+                        <div class="border rounded-4 p-4 bg-propd"
+                            style="background-image: url(assets/images/roadmap-1.png); border-color: #FFA800 !important;box-shadow: 0 0 5px 0px #FFA800;">
+                            <div class="t-dot d-flex justify-content-between"></div>
+                            <div class="text-center">
+                                <p class="text-orange fs-3 fw-semibold m-0 mt-4">PHASE 1</p>
+                                <h4 class="fw-bolder text-uppercase fs-2 mb-4"> Rekt <br> Foundation</h4>
+                            </div>
+                            <ul class="d-flex flex-column gap-3 pb-5 mb-5">
+                                <li><i class="fa-solid fs-5 fa-circle-check text-orange"></i> &nbsp; Launch</li>
+                                <li><i class="fa-solid fs-5 fa-circle-check text-orange"></i> &nbsp;
+                                    CoinGecko/Coinmarketcap
+                                    Listings</li>
+                                <li><i class="fa-solid fs-5 fa-circle-check text-orange"></i> &nbsp; 1,000- Holders</li>
+                                <li><i class="fa-solid fs-5 fa-circle-check text-orange"></i> &nbsp; Get SPEPE Trending
+                                    on
+                                    twitter with our memetic power</li>
+                            </ul>
+                            <div class="b-dot d-flex justify-content-between"></div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="border rounded-4 p-4 bg-propd"
+                            style="background-image: url(assets/images/roadmap-2.png); border-color: #FFA800 !important;box-shadow: 0 0 5px 0px #FFA800;">
+                            <div class="t-dot d-flex justify-content-between"></div>
+                            <div class="text-center">
+                                <p class="text-orange fs-3 fw-semibold m-0 mt-4">PHASE 2</p>
+                                <h4 class="fw-bolder text-uppercase fs-2 mb-4"> Rekt <br> Foundation</h4>
+                            </div>
+                            <ul class="d-flex flex-column gap-3 pb-5 mb-5">
+                                <li><i class="fa-solid fs-5 fa-circle-check text-orange"></i> &nbsp; Launch</li>
+                                <li><i class="fa-solid fs-5 fa-circle-check text-orange"></i> &nbsp;
+                                    CoinGecko/Coinmarketcap
+                                    Listings</li>
+                                <li><i class="fa-solid fs-5 fa-circle-check text-orange"></i> &nbsp; 1,000- Holders</li>
+                                <li><i class="fa-solid fs-5 fa-circle-check text-orange"></i> &nbsp; Get SPEPE Trending
+                                    on
+                                    twitter with our memetic power</li>
+                            </ul>
+                            <div class="b-dot d-flex justify-content-between"></div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="border rounded-4 p-4 bg-propd"
+                            style="background-image: url(assets/images/roadmap-3.png); border-color: #FFA800 !important;box-shadow: 0 0 5px 0px #FFA800;">
+                            <div class="t-dot d-flex justify-content-between"></div>
+                            <div class="text-center">
+                                <p class="text-orange fs-3 fw-semibold m-0 mt-4">PHASE 3</p>
+                                <h4 class="fw-bolder text-uppercase fs-2 mb-4"> Rekt <br> Foundation</h4>
+                            </div>
+                            <ul class="d-flex flex-column gap-3 pb-5 mb-5">
+                                <li><i class="fa-solid fs-5 fa-circle-check text-orange"></i> &nbsp; Launch</li>
+                                <li><i class="fa-solid fs-5 fa-circle-check text-orange"></i> &nbsp;
+                                    CoinGecko/Coinmarketcap
+                                    Listings</li>
+                                <li><i class="fa-solid fs-5 fa-circle-check text-orange"></i> &nbsp; 1,000- Holders</li>
+                                <li><i class="fa-solid fs-5 fa-circle-check text-orange"></i> &nbsp; Get SPEPE Trending
+                                    on
+                                    twitter with our memetic power</li>
+                            </ul>
+                            <div class="b-dot d-flex justify-content-between"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-60">
+            <div class="container">
+                <div class="row flex-column gap-4">
+                    <div style="background: linear-gradient(0deg, rgba(255,168,0,1) 0%, rgba(2,0,36,1) 100%); padding: 1px;"
+                        class="rounded-3">
+                        <div style="background: #0E0F14;" class="rounded-3">
+                            <div style="background: linear-gradient(0deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0) 100%);"
+                                class="p-4 rounded-3 d-flex flex-column flex-lg-row align-items-lg-center justify-content-between">
+                                <div>
+                                    <h3 class="fs-1 fw-bolder">Join Our Community...</h3>
+                                    <p class="m-lg-0 pe-lg-5">
+                                        Meet the KingKong Doge team, artists and collectors for <br> platform updates,
+                                        announcements, and more..
+                                    </p>
+                                </div>
+                                <div>
+                                    <button class="bg-orange text-black rounded-pill py-2 px-4 border border-2 fs-5">
+                                        <i class="fa-solid fa-paper-plane"></i> &nbsp; Launch Telegram
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer style="background-image: url(assets/images/footer-bg.png);" class="bg-props py-5 mt-5">
+        <div class="container">
+            <div class="row text-center">
+                <a href="index.html">
+                    <img src="assets/images/logo.png" width="174" alt="Logo Image">
+                </a>
+            </div>
+            <div class="my-4"
+                style="background: linear-gradient(90deg, rgba(197,201,204,0) 0%, rgba(197,201,204,1) 50%, rgba(197,201,204,0) 100%); height: 2px;">
+            </div>
+            <div class="row">
+                <ul
+                    class="d-flex flex-column flex-sm-row justify-content-center align-items-center gap-4 gap-lg-5 text-uppercase fs-lg-4">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#utility">Utility</a></li>
+                    <li><a href="#aboutUs">ABOUT US</a></li>
+                    <li><a href="#ourCommunity">our Community</a></li>
+                    <li><a href="#roadmap">roadmap</a></li>
+                </ul>
+            </div>
+            <div class="my-4"
+                style="background: linear-gradient(90deg, rgba(197,201,204,0) 0%, rgba(197,201,204,1) 50%, rgba(197,201,204,0) 100%); height: 2px;">
+            </div>
+            <div class="row">
+                <ul
+                    class="d-flex flex-column flex-sm-row justify-content-center gap-4 align-items-center text-uppercase fs-5">
+                    <li class="border bg-orange d-flex rounded-circle align-items-center justify-content-center"
+                        style="width: 48px; height: 48px;"><a href="#"><i
+                                class="text-black fa-brands fa-facebook-f"></i></a>
+                    </li>
+                    <li class="border bg-orange d-flex rounded-circle align-items-center justify-content-center"
+                        style="width: 48px; height: 48px;"><a href="#"><i
+                                class="text-black fa-brands fa-x-twitter"></i></a>
+                    </li>
+                    <li class="border bg-orange d-flex rounded-circle align-items-center justify-content-center"
+                        style="width: 48px; height: 48px;"><a href="#"><i
+                                class="text-black fa-brands fa-instagram"></i></a>
+                    </li>
+                    <li class="border bg-orange d-flex rounded-circle align-items-center justify-content-center"
+                        style="width: 48px; height: 48px;"><a href="#"><i
+                                class="text-black fa-brands fa-linkedin-in"></i></a>
+                    </li>
+                    <li class="border bg-orange d-flex rounded-circle align-items-center justify-content-center"
+                        style="width: 48px; height: 48px;"><a href="#"><i
+                                class="text-black fa-brands fa-whatsapp"></i></a>
+                    </li>
+                    <li class="border bg-orange d-flex rounded-circle align-items-center justify-content-center"
+                        style="width: 48px; height: 48px;"><a href="#"><i
+                                class="text-black fa-brands fa-slideshare"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script>
+        $(function () {
+            var pageScroll = 100;
+            $(window).scroll(function () {
+                var scroll = getCurrentScroll();
+                if (scroll >= pageScroll) {
+                    $('header').addClass('fixed');
+                }
+                else {
+                    $('header').removeClass('fixed');
+                }
+            });
+            function getCurrentScroll() {
+                return window.pageYOffset || document.documentElement.scrollTop;
+            }
+        });
+        $(document).ready(function () {
+            $('.loader-wrapper').fadeOut("slow");
+        })
+    </script>
+</body>
+
+</html>
